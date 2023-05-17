@@ -102,23 +102,54 @@ a
           
           @media screen and (max-width: 768px) {
             .ofertas {
-              font-size: 15px;
-              line-height: 1.5em;
-              padding: 10px;
+               font-size: 15px;
+               line-height: 1.5em;
+               padding: 10px;
+               text-align: center;
             }}
 
 .acomodar-1 
-       {padding: 20px;
-       display: flex;
-       justify-content: center;
-       font-family: 'Signika', sans-serif;}
+        {padding: 20px;
+        display: flex;
+        justify-content: center;
+        font-family: 'Signika', sans-serif;}
 
-       @media screen and (max-width: 576px) {
+          @media screen and (max-width: 600px) {
             .acomodar–1 {
                   font-size: 100px;
-                 
                   margin: 0 auto;
             }}   
+
+.size 
+        {width: auto;
+        height: auto;}
+
+       @media screen and (max-width: 570px) {
+              .size {
+               background-color: #000000;
+               color: white;
+               border-radius: 20px;
+               font-size: 15px;
+               padding: 10px;
+               margin: 30px;
+               width: 85%;
+              }}   
+
+.mapa 
+        {display: block;
+        margin: 0 auto;
+        width: 900px;
+        height: 400px; 
+        border-radius: 20px;
+        padding: 20px; }
+
+        @media screen and (max-width: 570px) {
+              .mapa {
+               width: 80%;
+               height: 60%;
+              }}   
+
+
 
 
           
