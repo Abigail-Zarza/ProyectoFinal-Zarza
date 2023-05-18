@@ -1,0 +1,56 @@
+.texto {
+   padding: nth($padding,2);
+   margin: nth($margin , 1);
+   display: flex;
+   justify-content: center;
+   background-color: $hd-c;
+   font-family: $ft;}
+
+.estilo {
+   text-align: center;
+   padding: $padd;
+   margin-top: map-get($styles, m-arriba);
+   margin-bottom: map-get($styles, m-abajo);
+   font-family: $ft;
+   background-color: $yellow-0;
+   color: nth($colores, 3);}
+
+.ofertas {
+   text-align: justify;
+   font-family: $ft;
+   font-size: nth($font-size, 3);
+   line-height: nth($font-size, 6);
+   padding: nth($padding, 3);}
+
+.ofertas {
+  @include responsive-ofertas
+}
+
+.acomodar-1 {
+   display: flex;
+   justify-content: center;
+   font-family: $ft;
+      
+    @media screen and (max-width: 600px) {
+        margin: nth($margin, 2);
+        }
+        }
+
+.acomodar 
+  {padding: $padd;}      
+
+footer
+   {background-color: $hd-c;
+   padding: nth($padding, 4);
+    font-family: $ft;} 
+
+.logo 
+   {display: flex;
+   justify-content: center;
+   width: nth($width, 5);
+   height: nth($height, 3);
+   padding: $padd;}
+
+
+
+        

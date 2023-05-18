@@ -1,0 +1,47 @@
+.card {
+    border-width: 0;
+    background-color: map-get($card-styles, color-fondo);
+   color: map-get($card-styles, negro);
+   border-radius: map-get($card-styles, borde-rs);
+}
+  
+  .card-title, h5 {
+      font-size: nth($font-size, 3);
+      display: flex;
+      justify-content: center;
+    }
+  
+  .boton-mio {
+    background-color: $yellow-1;
+    color: nth($colores, 4);
+    padding: nth($padding, 1);
+    display: flex;
+    justify-content: center;
+   font-family: $ft;
+   
+  }
+  
+  .btn {
+    border-color: nth($colores, 3);
+  }
+
+  .centro 
+  {text-align: center;
+  font-family: $ft;}
+
+  .size {
+    width: auto;
+    height: auto;
+  
+    @media screen and (max-width: 570px) {
+      background-color: nth($colores, 3);
+      color: nth($colores, 4);
+      border-radius: $border-r;
+      font-size: nth($font-size, 1);
+      padding: nth($padding, 2);
+      margin: nth($margin, 2);
+      width: nth($width, 2);
+    }
+  }
+  
+  

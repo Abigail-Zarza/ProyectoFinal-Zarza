@@ -1,0 +1,39 @@
+ul {
+    list-style: $estilo-listas;
+    text-align: $textos-centrados;
+  
+    li {
+      a {
+        text-decoration: $deco-listas;
+      }
+    }
+  }
+  
+  .mapa {
+    display: block;
+    margin: nth($margin, 3);
+    width: nth($width, 4);
+    height: nth($height, 2);
+    border-radius: $border-r;
+    padding: $padd;
+
+      .mapa {
+         @include  responsive-map
+     
+    }
+  }
+
+
+  .preguntas {
+    font-family: $ft;
+    color: $yellow-0;
+    font-size: nth($font-size, 4)
+  }
+  
+  .respuesta {
+    font-family: $ft;
+    font-size: nth($font-size , 2);
+    color: nth($colores, 3);
+  }
+  
+  

@@ -1,0 +1,28 @@
+header {
+    background-color: $hd-c;
+  
+    .nav-mio {
+      background-color: $hd-c;
+      font-family: $ft;
+    }
+  
+    ul.dropdown-menu {
+      background-color: $hd-drop;
+  
+      &:hover {
+        background-color:nth($colores,1)
+      }
+    }
+  
+    .nav .open > a,
+    .nav .open > a:focus,
+    .nav .open > a:hover {
+      background-color: nth($colores,2)
+    }
+  
+    .dropdown-item.active,
+    .dropdown-item:active {
+      background-color: nth($colores,3)
+    }
+  }
+  
