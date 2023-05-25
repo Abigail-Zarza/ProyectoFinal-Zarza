@@ -36,4 +36,6 @@ ul {
     color: nth($colores, 3);
   }
   
-  
+  .mapa2 {
+    @include responsive-map
+  }

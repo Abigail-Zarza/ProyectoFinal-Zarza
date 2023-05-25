@@ -1,7 +1,8 @@
 @mixin responsive-map{
    @media screen and (max-width: 570px) {
-    width: 80%;
-    height: 60%;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
 }
 }
 

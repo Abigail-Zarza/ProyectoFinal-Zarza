@@ -42,7 +42,8 @@
 footer
    {background-color: $hd-c;
    padding: nth($padding, 4);
-    font-family: $ft;} 
+    font-family: $ft;
+   } 
 
 .logo 
    {display: flex;
@@ -51,6 +52,14 @@ footer
    height: nth($height, 3);
    padding: $padd;}
 
+.prueba {
+   display: flex;
+   justify-content: center;
+}
 
-
+.pago {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ justify-content:space-around}
         
